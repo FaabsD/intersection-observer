@@ -13,3 +13,7 @@ Nog te beginnen met video 1 ben bezig geweest om het structuur en stijl over te 
 ### 13:45
 
 video 1 afgerond, check op class anders uitgevoerd vanwege eigen classes. Checkt op de class active erin zit met contains().
+
+### 15:25
+
+video 2 afgerond.
