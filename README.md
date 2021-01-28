@@ -27,3 +27,7 @@ Had dit blijkbaar niet afgemaakt, video 3 afgerond.
 ### 11:38
 
 video 4 afgerond.
+
+### 11:45
+
+video 5 soort van afgerond mijn html is anders.
