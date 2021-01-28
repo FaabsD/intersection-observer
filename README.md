@@ -17,3 +17,8 @@ video 1 afgerond, check op class anders uitgevoerd vanwege eigen classes. Checkt
 ### 15:25
 
 video 2 afgerond.
+
+## 28-01-2021
+
+### 11:59
+Had dit blijkbaar niet afgemaakt, video 3 afgerond.
