@@ -1,7 +1,10 @@
 let allLinks = document.querySelectorAll('.nav-item__link');
 let sections = document.querySelectorAll('section');
 
-let options = {}
+let options = {
+    rootMargin: "-150px",
+    treshold: 1.0
+};
 
 const handelCut = (entries, observer) => {
     entries.forEach(entry => {
@@ -16,7 +19,10 @@ const handelCut = (entries, observer) => {
 
 let observer = new IntersectionObserver(handelCut, options);
 
-observer.observe(sections[1]);
+// observer.observe(sections[1]);
+sections.forEach(section => {
+    observer.observe(section)
+});
 
 // functie die de class active verwijderd uit een menu item
 const deleteActive = () => {
