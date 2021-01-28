@@ -5,7 +5,11 @@ let options = {}
 
 const handelCut = (entries, observer) => {
     entries.forEach(entry => {
-        console.log(entry.target + " doorsnijdt " + entry.isIntersecting);
+        // console.log(entry.target.id + " doorsnijdt " + entry.isIntersecting);
+        if (entry.isIntersecting) {
+            let link = findMatchingLink('#' + entry.target.id);
+            makeActive(link);
+        }
     })
 
 };
@@ -36,3 +40,8 @@ allLinks.forEach((link) => {
         window.location = e.target.href;
     })
 })
+
+const findMatchingLink = (id) => {
+    let link = document.querySelector('nav a[href="'+ id +'"]');
+    return link;
+}
