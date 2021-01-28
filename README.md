@@ -21,4 +21,9 @@ video 2 afgerond.
 ## 28-01-2021
 
 ### 11:59
+
 Had dit blijkbaar niet afgemaakt, video 3 afgerond.
+
+### 11:38
+
+video 4 afgerond.
