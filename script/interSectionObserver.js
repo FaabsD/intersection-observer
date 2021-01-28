@@ -2,15 +2,15 @@ let allLinks = document.querySelectorAll('.nav-item__link');
 let sections = document.querySelectorAll('section');
 
 let options = {
-    rootMargin: "-150px",
+    // rootMargin: "-150px",
     treshold: 1.0
 };
 
 const handelCut = (entries, observer) => {
     entries.forEach(entry => {
-        // console.log(entry.target.id + " doorsnijdt " + entry.isIntersecting);
+        console.log(entry.target.parentNode.id + " doorsnijdt " + entry.isIntersecting);
         if (entry.isIntersecting) {
-            let link = findMatchingLink('#' + entry.target.id);
+            let link = findMatchingLink('#' + entry.target.parentNode.id);
             makeActive(link);
         }
     })
@@ -21,7 +21,7 @@ let observer = new IntersectionObserver(handelCut, options);
 
 // observer.observe(sections[1]);
 sections.forEach(section => {
-    observer.observe(section)
+    observer.observe(section.getElementsByTagName('p')[0])
 });
 
 // functie die de class active verwijderd uit een menu item
