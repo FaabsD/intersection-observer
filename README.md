@@ -34,3 +34,7 @@ video 4 afgerond.
 ### 11:45
 
 video 5 soort van afgerond mijn html is anders.
+
+### 17:43 
+
+Video 5 later echt afgerond, ik heb mijn html aangepast.
